@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Quote.css';
 
 export default function Quote({ character, image, quote }) {
   return (
-    <container style={{ border: 'black 3px' }}>
+    <container className={styles.Quote}>
       <h3>{character}</h3>
       <img src={image} />
       <p>{quote}</p>
