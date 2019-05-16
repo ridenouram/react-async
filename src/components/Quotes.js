@@ -8,7 +8,7 @@ export default function Quotes({ quotes }) {
   ));
 
   return (
-    { quoteCards }
+    quoteCards 
   );
 }
 

@@ -16,3 +16,4 @@ Quote.propTypes = {
   image: PropTypes.string.isRequired,
   quote: PropTypes.string.isRequired
 };
+
