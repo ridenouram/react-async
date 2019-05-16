@@ -20,7 +20,7 @@ export default class TopQuotes extends PureComponent {
   render() {
     return (
       <container>
-
+        <Quotes quotes={this.state.quotes}/>
       </container>
     );
   }
